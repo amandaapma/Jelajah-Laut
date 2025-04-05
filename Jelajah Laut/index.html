@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jelajah Laut</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#maps">Maps</a></li>
+      <li><a href="#help">Help Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Welcome to Jelajah Laut</h1>
+      <h2>Ensiklopedia Fauna Laut Nusantara</h2>
+      <p>
+        Jelajah Laut adalah platform digital berbasis ensiklopedia yang menyajikan informasi tentang fauna laut
+        Nusantara. Temukan keajaiban dunia bawah laut di ujung jarimu🐚
+      </p>
+      <input type="text" placeholder="Cari fauna laut..." class="search-bar" />
+    </div>
+    <div class="home-img">
+      <img src="img/logo.png" alt="" />
+    </div>
+  </section>
+
+  <!-- Maps Section -->
+  <section class="app" id="maps">
+    <div class="heading">
+      <h1>Maps</h1>
+    </div>
+    <input type="text" placeholder="Cari fauna laut..." class="search-bar" id="wikiSearch" list="fauna-list" />
+    <datalist list="faunaList">
+      <!-- Ikan & Mamalia Laut -->
+      <option value="Orca">
+      <option value="Dolphin">
+      <option value="Blue Whale">
+      <option value="Humpback Whale">
+      <option value="Sperm Whale">
+      <option value="Manta Ray">
+      <option value="Shark">
+      <option value="Clownfish">
+      <option value="Tuna">
+      <option value="Sunfish">
+      <option value="Barracuda">
+      <option value="Napoleon Wrasse">
+      <option value="Seahorse">
+    
+      <!-- Terumbu Karang -->
+      <option value="Staghorn Coral">
+      <option value="Brain Coral">
+      <option value="Elkhorn Coral">
+      <option value="Table Coral">
+      <option value="Fire Coral">
+      <option value="Soft Coral">
+    
+      <!-- Hewan Laut Lunak -->
+      <option value="Jellyfish">
+      <option value="Crystal Jellyfish">
+      <option value="Octopus">
+      <option value="Cuttlefish">
+      <option value="Squid">
+      <option value="Sea Slug">
+      <option value="Nudibranch">
+    
+      <!-- Hewan Laut Berkulit Keras -->
+      <option value="Lobster">
+      <option value="Crab">
+      <option value="Hermit Crab">
+      <option value="Shrimp">
+      <option value="Horseshoe Crab">
+    
+      <!-- Lainnya -->
+      <option value="Sea Turtle">
+      <option value="Starfish">
+      <option value="Sea Urchin">
+      <option value="Sea Cucumber">
+      <option value="Sea Anemone">
+      <option value="Sea Snake">
+    </datalist>
+    
+    <div class="category">
+      <button class="btn">Ikan&Mamalia Laut</button>
+      <button class="btn">Terumbu Karang</button>
+      <button class="btn">Hewan Laut Lunak</button>
+      <button class="btn">Hewan Laut Berkulit Keras</button>
+    </div>
+    <div class="shop-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="img/orca.jpg" alt="Ikan" />
+        </div>
+        <h2>Paus orca</h2>
+        <span>Paus Orca (Orcinus orca), spesies lumba-lumba terbesar, dikenal dengan tubuh hitam-putih mencolok dan sirip punggung tinggi. 
+          Hidup di perairan Indonesia seperti Laut Banda, orca memburu ikan dan cumi secara berkelompok dengan strategi cerdas dan ikatan sosial kuat.</span>
+          <a href="https://en.wikipedia.org/wiki/Orca" class="btn">Baca Artikel</a>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="img/staghorn coral.jpg" alt="Terumbu Karang" />
+        </div>
+        <h2>Karang Tanduk Rusa</h2>
+        <span>Staghorn Coral (Acropora cervicornis) adalah karang bercabang mirip tanduk rusa yang tumbuh cepat di perairan dangkal Indonesia.
+           Warnanya bervariasi dan menjadi habitat penting bagi ikan kecil. 
+           Karang ini rentan terhadap pemutihan akibat perubahan suhu laut.</span>
+           <a href="https://en.wikipedia.org/wiki/Staghorn_coral" class="btn">Baca Artikel</a>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="img/clownfish.jpg" alt="Cumi-cumi" />
+        </div>
+        <h2>Clown Fish</h2>
+        <span>Clown Fish (Amphiprioninae) adalah ikan kecil berwarna oranye dengan garis putih khas. 
+          Hidup bersimbiosis dengan anemon laut yang melindunginya dari predator. Ditemukan di terumbu karang Indonesia,
+           ikan ini dikenal karena perilaku sosial unik dan kemampuannya berubah kelamin.</span>
+           <a href="https://en.wikipedia.org/wiki/Clownfish" class="btn">Baca Artikel</a>
+      </div>
+      <div class="box">
+        <div class="box-img">
+          <img src="img/ubur-ubur kristal.png" alt="Paus" />
+        </div>
+        <h2>Ubur-ubur Kristal</h2>
+        <span>Ubur-ubur Kristal (Aequorea victoria) memiliki tubuh transparan menyerupai kristal dan mampu memancarkan cahaya lembut. 
+          Hidup di perairan laut Indonesia, ubur-ubur ini tidak berbahaya bagi manusia dan dikenal karena keindahannya yang unik.</span>
+          <a href="https://en.wikipedia.org/wiki/Aequorea_victoria" class="btn">Baca Artikel</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Help Us Section -->
+  <section class="contact" id="help">
+    <div class="heading">
+      <h1>Help Us</h1>
+    </div>
+    <form>
+      <input type="text" placeholder="Nama Lengkap" required />
+      <input type="tel" placeholder="No. Telepon" required />
+      <input type="number" placeholder="Usia" required />
+      <input type="text" placeholder="Pekerjaan" />
+      <input type="text" placeholder="Asal Kota" />
+      <input type="text" placeholder="Provinsi" />
+      <input type="text" placeholder="Negara" />
+      <input type="email" placeholder="Email" required />
+      <textarea placeholder="Pesan atau saran..." required></textarea>
+      <button class="btn" type="submit">Kirim</button>
+    </form>
+  </section>
+
+  <!-- Footer / Kontak -->
+  <section class="footer-section" id="contact">
+    <div class="social">
+      <a href="#"><i class="bx bxl-facebook"></i></a>
+      <a href="#"><i class="bx bxl-twitter"></i></a>
+      <a href="#"><i class="bx bxl-instagram"></i></a>
+      <a href="#"><i class="bx bxl-youtube"></i></a>
+    </div>
+    <div class="links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Our Company</a>
+    </div>
+    <p>&#169; Jelajah Laut All Right Reserved.</p>
+  </section>
+</body>
+
+</html>
