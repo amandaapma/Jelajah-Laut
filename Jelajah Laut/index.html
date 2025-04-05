@@ -28,8 +28,6 @@
       <p>
         Jelajah Laut adalah platform digital berbasis ensiklopedia yang menyajikan informasi tentang fauna laut
         Nusantara. Temukan keajaiban dunia bawah laut di ujung jarimu🐚
-      </p>
-      <input type="text" placeholder="Cari fauna laut..." class="search-bar" />
     </div>
     <div class="home-img">
       <img src="img/logo.png" alt="" />
@@ -41,9 +39,9 @@
     <div class="heading">
       <h1>Maps</h1>
     </div>
-    <input type="text" placeholder="Cari fauna laut..." class="search-bar" id="wikiSearch" list="fauna-list" />
-    <datalist list="faunaList">
-      <!-- Ikan & Mamalia Laut -->
+    <input type="text" placeholder="Cari fauna laut..." class="search-bar" id="wikiSearch" list="fauna-list" /> <!-- Perbaiki ID pada list -->
+    <datalist id="fauna-list">
+      <!-- Fauna Laut -->
       <option value="Orca">
       <option value="Dolphin">
       <option value="Blue Whale">
@@ -57,7 +55,6 @@
       <option value="Barracuda">
       <option value="Napoleon Wrasse">
       <option value="Seahorse">
-    
       <!-- Terumbu Karang -->
       <option value="Staghorn Coral">
       <option value="Brain Coral">
@@ -65,7 +62,6 @@
       <option value="Table Coral">
       <option value="Fire Coral">
       <option value="Soft Coral">
-    
       <!-- Hewan Laut Lunak -->
       <option value="Jellyfish">
       <option value="Crystal Jellyfish">
@@ -74,14 +70,12 @@
       <option value="Squid">
       <option value="Sea Slug">
       <option value="Nudibranch">
-    
       <!-- Hewan Laut Berkulit Keras -->
       <option value="Lobster">
       <option value="Crab">
       <option value="Hermit Crab">
       <option value="Shrimp">
       <option value="Horseshoe Crab">
-    
       <!-- Lainnya -->
       <option value="Sea Turtle">
       <option value="Starfish">
@@ -89,8 +83,7 @@
       <option value="Sea Cucumber">
       <option value="Sea Anemone">
       <option value="Sea Snake">
-    </datalist>
-    
+    </datalist>    
     <div class="category">
       <button class="btn">Ikan&Mamalia Laut</button>
       <button class="btn">Terumbu Karang</button>
@@ -139,7 +132,6 @@
     </div>
   </section>
 
-
   <!-- Help Us Section -->
   <section class="contact" id="help">
     <div class="heading">
@@ -149,11 +141,11 @@
       <input type="text" placeholder="Nama Lengkap" required />
       <input type="tel" placeholder="No. Telepon" required />
       <input type="number" placeholder="Usia" required />
+      <input type="email" placeholder="Email" required />
       <input type="text" placeholder="Pekerjaan" />
       <input type="text" placeholder="Asal Kota" />
       <input type="text" placeholder="Provinsi" />
       <input type="text" placeholder="Negara" />
-      <input type="email" placeholder="Email" required />
       <textarea placeholder="Pesan atau saran..." required></textarea>
       <button class="btn" type="submit">Kirim</button>
     </form>
